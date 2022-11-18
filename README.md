@@ -1,40 +1,39 @@
-# Your Project's Name
+# Fluff & Buff
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+Fluff & Buff specialises in pet grooming services and We also sell high quality grooming products and healthy pet treats. We focus on maintaining a safe and pet-friendly environment that assures all pet parents that their pets are well taken care of.
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The objective of this website is to provide customers with a platform to easily book appointments and buy pet products. Our main priority of the website is simplicity so that customers won't have a hard time navigating the website. We will also focus on the aesthetics on the website as it important to have a good first impression on potential customers and it also reflects our company's credibility. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+###### Responsive Website
+This website will be able to adapt to whichever device our customer is using. This will improve their user experience.
+###### Easy navigation
+Include a navigation menu which is clearly labelled so customers will never have a problem finding their way through the website.
+###### Style and page layout
+Include pictures which will make the website less boring, texts that is easy to read and concise so we will not lose our customer's attention. Use of colour contrasts so all information displayed is clear. Layout should not be confusing.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+-As a ...
 
-## Features
+[Wireframe of website made with Adobe XD](file:///C:/ID/ID%20Asg1/S10243946_IDasg1_Wireframe(Web)%2018%20November,%203.26.39%20pm.pdf)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+## Features of this website
+-The homepage includes an about text and picture, small preview sections of the shop page and booking page.
+-Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
+*Sign up and Sign in page which saves customer's information so they can gain member benefits and save shopping cart. 
++E-commerce page includes, pictures of products, product description, price and also allows you to add the products to your cart.
+-Booking page which takes in customer's information like name, contact number, email.
+*Reviews and tesimonials, includes pictures, ratings and comments.
++Contact section, includes company number, email, address and an interactive map. In this section customers can also write any enquires they have for the company. There is also a button which will lead customers to the FAQs page.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+[Adobe XD](https://www.adobe.com/products/xd/learn/get-started.html)
+To create the wireframes
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+[Procreate](https://procreate.art/)
+To create company logo
 
 ## Testing
 
