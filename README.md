@@ -15,7 +15,7 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 -As a ...
 
-[Wireframe of website made with Adobe XD](file:///C:/ID/ID%20Asg1/S10243946_IDasg1_Wireframe(Web)%2018%20November,%203.26.39%20pm.pdf)
+[Wireframe of website made with Adobe XD](https://xd.adobe.com/view/ba3c9850-fc40-47ca-9e90-acafc6b13c1a-ef6f/)
 
 ## Features of this website
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
