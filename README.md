@@ -19,11 +19,11 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 ## Features of this website
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
-*Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
-+Sign up and Sign in page which saves customer's information so they can gain member benefits and save shopping cart. 
+-Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
+-Sign up and Sign in page which saves customer's information so they can gain member benefits and save shopping cart. 
 -E-commerce page includes, pictures of products, product description, price and also allows you to add the products to your cart.
-*Booking page which takes in customer's information like name, contact number, email.
-+Reviews and tesimonials, includes pictures, ratings and comments.
+-Booking page which takes in customer's information like name, contact number, email.
+-Reviews and tesimonials, includes pictures, ratings and comments.
 -Contact section, includes company number, email, address and an interactive map. In this section customers can also write any enquires they have for the company. There is also a button which will lead customers to the FAQs page.
 
 ## Technologies Used
