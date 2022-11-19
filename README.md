@@ -16,6 +16,7 @@ Include pictures which will make the website less boring, texts that is easy to 
 -As a ...
 
 [Wireframe of website made with Adobe XD](https://xd.adobe.com/view/ba3c9850-fc40-47ca-9e90-acafc6b13c1a-ef6f/)
+[Company logo made with procreate](https://photos.google.com/photo/AF1QipO6g--x7Kg1yOMC6Qiw6nOtpY-4tD-EISvebk2Z)
 
 ## Features of this website
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
