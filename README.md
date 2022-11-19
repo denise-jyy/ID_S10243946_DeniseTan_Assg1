@@ -17,7 +17,7 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 -As a ...
 
-[Wireframe of website made with Adobe XD](https://xd.adobe.com/view/ba3c9850-fc40-47ca-9e90-acafc6b13c1a-ef6f/)
+[Wireframe of website made with Adobe XD](https://xd.adobe.com/view/1f75e03f-f8cf-41dd-bc9a-0f95bb744154-4a26/)
 
 [Company logo made with procreate](https://photos.google.com/photo/AF1QipO6g--x7Kg1yOMC6Qiw6nOtpY-4tD-EISvebk2Z)
 
