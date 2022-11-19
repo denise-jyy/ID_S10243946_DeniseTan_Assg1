@@ -1,6 +1,6 @@
 # Fluff & Buff
 
-![Logo](https://photos.google.com/photo/AF1QipO6g--x7Kg1yOMC6Qiw6nOtpY-4tD-EISvebk2Z)
+![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSyio-ib1qpjxqLVcbUCdsfNp4F1uLbAlNWv8-p-4Ke4zxjlmoDzrFCzK4o8kPRpAD2szjEHR0L3txZth9qtpDubkdLqMIs0AiuC5q4i2ChyvXCd4gAkY2HDEfqKL8EGnjm-_DQYdh9xQgUZMLERn8iwEPCpOI3jZS27vGJ3o2q_WDGazx6Esu549DjA/s320/IMG_0907.PNG)
 
 Fluff & Buff specialises in pet grooming services and We also sell high quality grooming products and healthy pet treats. We focus on maintaining a safe and pet-friendly environment that assures all pet parents that their pets are well taken care of.
  
