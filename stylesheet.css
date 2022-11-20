@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(232, 147, 147);
+    height: 50px;
+  }
+  
+  li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(232, 137, 137);
+    height: 50px;
+  }
+
+  li a:active {
+    font-weight: bold;
+  }
+
+  #Logo {
+    height: 30px;
+  }
+
+  #LogoContainer {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 0px;
+    padding-left: 10px;
+  }
+
+  #LogoName {
+    padding: 10px;
+    font-size: x-large;
+  }
+
+  .Icons {
+    height: 35px;
+    padding-right: 10px;
+  }
+
+  .NavRight {
+    float: right;
+  }
+
+  .LandingFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    /* justify-content: center; */
+  }
+  .FlexItem{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+  }
+  @media (max-width:800px){
+    .LandingFlex{
+      flex-wrap: wrap;
+    }
+
+    .FlexItem{
+      flex-basis: 50%;
+    }
+  }
+  
+
