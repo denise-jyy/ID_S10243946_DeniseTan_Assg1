@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+</head>
+<body class="sharpPinkBg">
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html" class="active logo-box" id="LogoContainer">
+              <img src="Images/Logo.PNG" id="Logo" />
+              <span id="LogoName">Fluff & Buff</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+    
+        <div class="nav-links">
+    
+          <a href="booking.html">Book an Appointment</a>
+          <a href="FAQs.html">FAQs</a>
+          <a href="shop.html">Shop</a>
+          <a href="checkout.html" id="LogoContainer">
+            <img src="Images/Shopping cart.PNG" class="shoppingCart" />
+          </a>
+        </div>
+    </div>
+
+    <div class="centerContainer">
+        <div class="whiteBg bookingCard">
+            <h1 class="header">Book an Appointment</h1>
+            <div>
+                <label for="apptName" class="apptTextInput">Enter your name:</label>
+                <input type="text" id="apptName" class="apptInput"><br>
+
+                <label for="apptDate" class="apptTextInput">Select Appointment Date:</label>
+                <input type="date" id="apptDate" class="apptInput">
+                
+                <label for="apptTime" class="apptTextInput">Select Time:</label>
+                <select id="apptTime" class="apptInput">
+                    <option value="0900 - 1000"> 
+                        09:00 - 10:00
+                    </option>
+                    <option value="1000 - 1100">
+                        10:00 - 11:00
+                    </option>
+                    <option value="1100 - 1200">
+                        11:00 - 12:00
+                    </option>
+                    <option value="1200 - 1300">
+                        12:00 - 13:00
+                    </option>
+                    <option value="1300 - 1400">
+                        13:00 - 14:00
+                    </option>
+                    <option value="1400 - 1500">
+                        14:00 - 15:00
+                    </option>
+                    <option value="1500 - 1600">
+                        15:00 - 16:00
+                    </option>
+                    <option value="1600 - 1700">
+                        16:00 - 17:00
+                    </option>
+                    <option value="1700 - 1800">
+                        17:00 - 18:00
+                    </option>
+                    <option value="1800 - 1900">
+                        18:00 - 19:00
+                    </option>
+                    <option value="1900 - 2000">
+                        19:00 - 20:00
+                    </option>
+                    <option value="2000 - 2100">
+                        20:00 - 21:00
+                    </option>
+                </select><br>
+
+                <label for="apptType" class="apptTextInput">Select Service Type:</label>
+                <select id="apptType" class="apptInput">
+                    <option value="Basic Grooming"> 
+                        Basic Grooming (dog)
+                    </option>
+                    <option value="Basic Grooming"> 
+                        Basic Grooming (cat)
+                    </option>
+                    <option value="Full Grooming">
+                        Full Grooming (dog)
+                    </option>
+                    <option value="Full Grooming">
+                        Full Grooming (cat)
+                    </option>
+                    <option value="Spa">
+                        Spa (dog)
+                    </option>
+                    <option value="Spa">
+                        Spa (cat)
+                    </option>
+                </select><br>
+
+                <label for="apptContactNum" class="apptTextInput">Enter your Contact Number:</label>
+                <input type="text" id="apptContactNum" class="apptInput"><br><br>
+
+                <div class="buttonContainer">
+                    <button type="button" onclick="showSuccessMessage()"style="width:180px">Book</button>
+                </div>
+                <script>
+                    function showSuccessMessage() {
+                      alert("Booking is confirmed!");
+                    }
+                
+                </script>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

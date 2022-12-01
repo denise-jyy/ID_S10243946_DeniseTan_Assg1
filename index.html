@@ -1,85 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <!-- Required meta tags -->
+  <!-- Required meta tags -->
 
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
-    <!-- External CSS file, “link” -> TAB -->
+  <!-- External CSS file, “link” -> TAB -->
 
-    <link rel="stylesheet" href = "stylesheet.css">
-    <link rel="stylesheet" href = "normalize.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+
+  <title>Fluff & Buff</title>
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <a href="index.html" class="active logo-box" id="LogoContainer">
+          <img src="Images/Logo.PNG" id="Logo" />
+          <span id="LogoName">Fluff & Buff</span>
+        </a>
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+
+      <a href="booking.html">Book an Appointment</a>
+      <a href="FAQs.html">FAQs</a>
+      <a href="shop.html">Shop</a>
+      <a href="checkout.html" id="LogoContainer">
+        <img src="Images/Shopping cart.PNG" class="shoppingCart" />
+      </a>
+    </div>
+  </div>
   
-
-    <title>Fluff & Buff</title>
-
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-
-  </head>
-
-  <body>
-
+  <div id="landingTopPart">
     <div>
-        <ul>
-            <li>
-                <a href="index.html" class="active" id="LogoContainer">
-                    <img src= "Images/Logo.PNG" id="Logo"/>
-                    <span id="LogoName">Fluff & Buff</span>
-                </a>
-            </li>
-            <li class="NavRight">
-                <a href="checkout.html" id="LogoContainer">
-                    <img src= "Images/Shopping cart.PNG" class="Icons"/>
-                </a>
-            </li>
-            <li class="NavRight">
-                <a href="booking.html" id="LogoContainer">
-                    <img src= "Images/Login.PNG" class="Icons"/>
-                </a>
-            </li>
-            <li class="NavRight">
-                <a href="shop.html">Shop</a>
-            </li>
-            <li class="NavRight">
-                <a href="FAQs.html">FAQs</a>
-            </li>
-            <li class="NavRight">
-                <a href="booking.html">Book an Appointment</a>
-            </li>
-
-        </ul>
-    </div>
-        <div class="LandingFlex">
-        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_il43ezyd.json" class="LandingFlex"  background="transparent"  speed="1"  style="width: 700px; height: 700px;"  loop  autoplay></lottie-player>
-        <p class="FlexItem">
-            hello
+      <img src="./Images/Fluff & Buff.png" id="bgImage">
+      <div id="landingTopContent">
+        <h1 id="topTitle">Fluff & Buff</h1>
+        <p>
+          Fluff & Buff specialises in pet grooming services. We also sell high quality grooming products and fun pet
+          toys.
+          Focusing on maintaining a safe and pet-friendly environment we assure all pet parents that their fur babies
+          are well taken care of.
         </p>
-        </div>
+        <p id="topPic">
+          <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_itqodaed.json" background="transparent"
+            speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+        </p>
+      </div>
     </div>
+  </div>
+  <div>
+    <h1 class="header">Services</h1>
+    <div class="threeCols">
+      <div class="threeCol">
+        <div class="centerContainer">
+          <img src="Images/basicgroom.png" class="servicepic">
+        </div>
+        <div class="centerContainer">
+          <p class="servicetext">Basic Grooming</p>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div class="centerContainer">
+          <img src="Images/fullgroom.png" class="servicepic">
+        </div>
+        <div class="centerContainer">
+          <p class="servicetext">Full Grooming</p>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div class="centerContainer">
+          <img src="Images/spa.png" class="servicepic">
+        </div>
+        <div class="centerContainer">
+          <p class="servicetext">Spa</p>
+        </div>
+      </div>
+    </div>
+    <div class="buttonContainer">
+      <button type="button" onclick="location.href='./booking.html;'"style="width:180px">Book an Appointment</button>
+    </div>
+  </div>
+
+  <div>
+    <h1 class="header">Reviews</h1>
+    <div class="threeCols">
+      <div class="threeCol">
+        <div class="reviewCard">
+          <p>
+            <img class="reviewPic" src="./Images/img2.jpg" />
+          </p>
+          <p class="reviewText">
+          <p class="reviewStars">
+            ★★★★★
+          </p>
+          My experience at Fluff & Buff was extremely positive 😊 The grooming of my poodle was just as I had wanted.
+          The staff were friendly and professional. Love the care and attention my poodle was given. I would highly
+          recommend their service to others.
+          <br><br>
+          <b>- Sasha P.</b>
+          </p>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div class="reviewCard">
+          <p>
+            <img class="reviewPic" src="./Images/review 1.png" />
+          </p>
+          <p class="reviewText">
+          <p class="reviewStars">
+            ★★★★★
+          </p>
+          Fantastic, I wouldn’t trust my cats with anyone else. Best groomer in Singapore and so convenient with pickup
+          and drop off service! Thanks :)
+          <br><br>
+          <b>- John R.</b>
+          </p>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div class="reviewCard">
+          <p>
+            <img class="reviewPic" src="./Images/review 2.png" />
+          </p>
+          <p class="reviewText">
+          <p class="reviewStars">
+            ★★★★★
+          </p>
+          First time to Fluff & Buff! Staff and groomer are very friendly. Both cats and dogs have their separate area
+          for grooming!
+          My dog is usually very feisty and afraid of strangers but she’s very comfortable with the groomer. Will
+          definitely visit again!
+          <br><br>
+          <b>- Cathy L.</b>
+          </p>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div class="reviewCard">
+          <p>
+            <img class="reviewPic" src="./Images/review 3.png" />
+          </p>
+          <p class="reviewText">
+          <p class="reviewStars">
+            ★★★★★
+          </p>
+          Booking for an appointment was easy and fuss-free. The groomer is very patient with our pets.
+          <br><br>
+          <b>- Richard W.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 class="header">Shop</h1>
+  <div class="sliderContainer" itemDisplayd="3" itemDisplaym="1">
+    <div class="sliderWidth">
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+          <div>
+            <img class="shopPic" src="./Images/shampoo1.jpg" />
+            <p class="shopText">
+              YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
+              S$27.90
+            </p>
+            <div class="middle">
+              <a href="shop.html">
+                <button type="button"style="width:150px">Add to Cart</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+            <div>
+                <img class="shopPic" src="./Images/shampoo7.jpg"/>
+                <p class="shopText">
+                    YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
+                    S$27.90
+                </p>
+                <div class="middle">
+                    <a href="shop.html">
+                      <button type="button"style="width:150px">Add to Cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+            <div>
+                <img class="shopPic" src="./Images/shampoo2.jpg" style= "width:160px"/>
+                <p class="shopText">
+                    Aesop Animal wash <br>
+                    (500ml) <br>
+                    S$52.90
+                </p>
+                <div class="middle">
+                    <a href="shop.html">
+                      <button type="button"style="width:150px">Add to Cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+        <div>
+            <img class="shopPic" src="./Images/shampoo3.jpg"/>
+            <p class="shopText">
+                YU Deep cleansing/light conditioning furry cats formula (250ml) <br>
+                S$19.90
+            </p>
+            <div class="middle">
+                <a href="shop.html">
+                  <button type="button"style="width:150px">Add to Cart</button>
+                </a>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+            <div>
+                <img class="shopPic" src="./Images/shampoo4.jpg"style= "width:180px"/>
+                <p class="shopText">
+                    Easy-Clean & Softness For Lovely Cats formula <br>
+                    (150ml) <br>
+                    S$15.90
+                </p>
+                <div class="middle">
+                    <a href="shop.html">
+                      <button type="button"style="width:150px">Add to Cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="threeCols">
+        <div class="homeShop overlayContainer">
+            <div>
+                <img class="shopPic" src="./Images/shampoo5.jpg"style= "width:170px"/>
+                <p class="shopText">
+                    Epidermis Prime Essentials Deep Cleansing Pet Shampoo (250ml) <br>
+                    S$28.00
+                </p>
+                <div class="middle">
+                    <a href="shop.html">
+                      <button type="button"style="width:150px">Add to Cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="centerContainer">
+    <div>
+      <button type="button" class="prev" onclick="prev()">Prev</button>
+      <button type="button" class="next" onclick="next()">Next</button>
+    </div>
+  </div>
+
+  <div class="buttonContainer">
+    <button type="button" onclick="location.href='./shop.html'" style="width:150px">Shop Now</button>
+  </div>
+  </div>
+
+  <div class="">
+    <h1 class="header">Contact Us</h1>
+    <div class="threeCols">
+      <div class="threeCol centerContainer">
+        <div>
+          <div id="footerLogoContainer" class="centerContainer">
+            <img src="./Images/Logo.PNG" id="footerLogo"><br>
+          </div>
+          <p style="font-family:Calibri, Verdana, sans-serif">
+                7B Keppel Road #09-07 <br>
+                Tanjong Pagar Complex <br>
+                Singapore <br>
+                089655  <br>
+            <b>Email Address: </b>fluffandbuff@gmail.com <br>
+            <b>Telephone No: </b>+65 63211429 <br>
+          </p>
+          <div class="buttonContainer">
+            <button type="button" onclick="location:href='faq.html'">FAQs</button>
+          </div>
+        </div>
+      </div>
+      <div class="threeCol pinkBg centerContainer">
+        <div class="inputContainer">
+          <h3 style= "font-family:Playfair Display"> Ask Us Anything</h3>
+          <div style="font-family:Calibri, Verdana, sans-serif">
+          <label for="contactEmail" class="contactLabel">Enter your Email</label><br>
+          <input type="text" class="contactInput" name="contactEmail" id="contactEmail"><br>
+          <label for="contactNo" class="contactLabel">Enter Your Contact Number</label><br>
+          <input type="text" class="contactInput" name="contactNo" id="contactNum"><br>
+          <label for="question" class="contactLabel">What is your question?</label><br>
+        </div>
+          <textarea name="question" rows="5" id="question" class="contactInput"></textarea>
+          <div class="buttonContainer">
+            <button type="button" onclick= "showQuestionmessage()"style="width:150px">Submit Question</button>
+          </div>
+        </div>
+      </div>
+      <div class="threeCol">
+        <div id="googleMap"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.6536953807445!2d103.83397125901104!3d1.277351534353508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da196c88f3bc7b%3A0xbd10446b020bca0a!2sTanjong%20Pagar!5e0!3m2!1sen!2ssg!4v1669905235562!5m2!1sen!2ssg" style="border:0;" width=100% height="500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </div>
 
 
-    <script>
+  <script>
+    var count = 0;
+    var inc = 0;
+    margin = 0;
+    var slider = document.getElementsByClassName("sliderWidth")[0];
+    var itemDisplay = 0;
+    if (screen.width > 990) {
+      itemDisplay = document.getElementsByClassName("sliderContainer")[0].getAttribute("itemDisplayd");
+      margin = itemDisplay * 5;
+    }
+    if (screen.width > 280 && screen.width < 700) {
+      itemDisplay = document.getElementsByClassName("sliderContainer")[0].getAttribute("itemDisplaym");
+      margin = itemDisplay * 20;
+    }
 
-      INSERT JS SCRIPT HERE
 
-    </script>
+    var items = document.getElementsByClassName("homeShop");
+    var itemleft = items.length % itemDisplay;
+    var itemslide = Math.floor(items.length / itemDisplay) - 1;
+    for (let i = 0; i < items.length; i++) {
+      items[i].style.width = (screen.width / itemDisplay) - margin + "px";
+    }
+
+    function next() {
+      if (inc !== itemslide + itemleft) {
+        if (inc == itemslide) {
+          inc = inc + itemleft;
+          count = count - (screen.width / itemDisplay) * itemleft;
+        }
+        else {
+          inc++;
+          count = count - screen.width;
+        }
+      }
+      slider.style.left = count + "px";
+    }
+
+    function prev() {
+      if (inc !== 0) {
+        if (inc == itemleft) {
+          inc = inc - itemleft;
+          count = count + (screen.width / itemDisplay) * itemleft;
+        }
+        else {
+          inc--;
+          count = count + screen.width;
+        }
+      }
+      console.log(inc)
+      slider.style.left = count + "px";
+    }
+
+    function showQuestionmessage() {
+        alert("Question submitted!");
+    }
+
+    function shopMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+                        
+
+  </script>
 
 
 
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
-  </body>
-
-</html> 
+</html>
