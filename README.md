@@ -28,21 +28,24 @@ Include pictures which will make the website less boring, texts that is easy to 
 [Company logo made with procreate](https://photos.google.com/photo/AF1QipO6g--x7Kg1yOMC6Qiw6nOtpY-4tD-EISvebk2Z)
 
 ## Features of this website
+
+-On the landing page, I used a lottie files animation
+
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
 
 -Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
 
 -When reduced to a smaller screen size, there will be a hamburger menu storing the navbar buttons.
 
--E-commerce page includes, pictures of products, product description, price and also allows you to add the products to your cart.
+-E-commerce page includes, pictures of products, product description and prices.
 
--Booking page which takes in customer's information like name, contact number, email.
+-Booking page which takes in customer's information like name, contact number and date/time. When user clicks the "book" button, an alert message will appear to indicate booking confirmation
 
 -Reviews and tesimonials, includes pictures, ratings and comments.
 
--Contact section, includes company number, email, address and an interactive map. In this section customers can also write any enquires they have for the company. There is also a button which will lead customers to the FAQs page.
+-Contact section, includes company number, email, address and an interactive map. In this section customers can also write any enquires they have for the company. When question is submitted, a alert message will appear. There is also a button which will lead customers to the FAQs page.
 
-Shop preview on homepage includes a multi-item slider carousel
+-Shop preview on homepage includes a multi-item slider carousel. When hovering over the items, I added an overlay button which says "Add to cart".
 
 -This website is also responsive, so it will work on both desktop and mobile. 
 
@@ -57,10 +60,16 @@ To create company logo
 [LottieFiles](https://lottiefiles.com/)
 For animation on landing page
 
+[Canva](https://www.canva.com/)
+To design background for some pages
 ## Testing
 
 
 ## Credits
+This website is created for educational purposes and will not be made official. 
+Here are the websites where I got my information from as content fillers.
+-(https://www.pawsandclawsironmountain.com/faq)
+-()
 
 ### Content
 

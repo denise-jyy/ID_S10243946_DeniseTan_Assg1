@@ -626,15 +626,18 @@ button {
   font-family: Calibri, Verdana, sans-serif;
   font-size: 16px;
 }
+
 body {
   padding: 0;
   margin: 0;
 }
+
 .sliderContainer {
   position: relative;
   overflow-x: hidden;
   height: 490px;
 }
+
 .sliderWidth {
   position: absolute;
   display: flex;
@@ -644,10 +647,12 @@ body {
   top: 0;
   transition: 0.4s ease-in-out;
 }
+
 .overlayContainer {
   position: relative;
   width: 50%;
 }
+
 .homeShop {
   display: flex;
   justify-content: center;
@@ -662,6 +667,7 @@ body {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -694,15 +700,18 @@ body {
   left: 50%;
   transform: translate(-50%);
 }
+
 .btn:nth-child(2) {
   margin-left: -74px;
 }
+
 .shopCard {
   background-color: #ffb3b3;
   border: solid 2px #ffb3b3;
   border-radius: 20px;
   margin: 20px;
 }
+
 .shopPic {
   width: 25%;
 }
