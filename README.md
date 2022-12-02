@@ -66,12 +66,12 @@ To design background for some pages
 
 
 ## Credits
-This website is created for educational purposes and will not be made official. 
-Here are the websites where I got my information from as content fillers.
--(https://www.pawsandclawsironmountain.com/faq)
--()
 
 ### Content
+This website is created for educational purposes and will not be made official. 
+Here are the websites where I got my information from as content fillers.
+-[FAQs content](https://www.pawsandclawsironmountain.com/faq)
+-[Review content](https://www.thefurrville.com/?gclid=EAIaIQobChMI4_akpsva-wIViJFmAh1h4AMSEAAYASAAEgJLO_D_BwE)
 
 ### Media
 
