@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
+    <title>FAQs</title>
 
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -39,3 +39,95 @@
           </a>
         </div>
     </div>
+    <main>
+        <div class="centerContainer">
+            <div class="whiteBg bookingCard" style= "width:600px; height:100%">
+                <h1 class="header">FAQs</h1>
+            <div class="faqOne">
+                <!-- question1 -->
+                <h1 class="faqPage" style="font-family:Playfair Display; font-size: medium;">What days and times do you offer grooming?</h1>
+                <!-- answer1 -->
+                <div class="faqBody">
+                    <p>
+                        We offer grooming 7 days a week. We typically start booking at 9:00 AM with our last appointment of the day at 9:00 PM. 
+                        If you have special needs that do not fall within these times, please let our staff know and we will make every effort to accommodate you. 
+                    </p>
+                </div>
+            </div>
+            <hr class="lineDivider">
+            <div class="faqTwo">
+                <!-- question2 -->
+                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">How much does it cost?</h1>
+                <!-- answer2 -->
+                <div class="faqBody">
+                    <p>
+                        All fees are based on the length of time it takes to complete the service rather than by breed. 
+                        Size, behavior, condition and health of coat, length and density of coat, and length of time between visits will all affect the price. 
+                    </p>
+                </div>
+            </div>
+            <hr class="lineDivider">
+            <div class="faqThree">
+                <!-- question3 -->
+                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">How long does it usually take?</h1>
+                <!-- answer3 -->
+                <div class="faqBody">
+                    <p>
+                        Bath with no trim is around 1 ½  to 2 hours.
+                        Your groomer will gladly call you just prior to or after your dog is finished.
+                        If you need your dog groomed in less time, please explain your needs when making your appointment and 
+                        we will do our best to find a day and time to accommodate your request.
+                    </p>
+                </div>
+            </div>
+            <hr class="lineDivider">
+            <div class="faqFour">
+                <!-- question4 -->
+                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">What if I cannot pick up my pet as soon as the appointment is over?</h1>
+                <!-- answer4 -->
+                <div class="faqBody">
+                    <p>
+                        To minimize the stress on your pet, we prefer they be picked up as soon after they are finished, as possible. 
+                    </p>
+                </div>
+            </div>
+            <hr class="lineDivider">
+            <div class="faqFive">
+                <!-- question4 -->
+                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">What do I need to prepare before the grooming appointment?</h1>
+                <!-- answer4 -->
+                <div class="faqBody">
+                    <p>
+                        We just need the pets and the owner to be present. We will take care of all the rest 
+                        such as the grooming equipment needed for grooming etc.
+                    </p>
+                </div>
+            </div>
+            <hr class="lineDivider">
+            <div class="faqSix">
+                <!-- question4 -->
+                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">Can I bring my own shampoo?</h1>
+                <!-- answer4 -->
+                <div class="faqBody">
+                    <p>
+                        Absolutely, although our top-rated product line is designed to promote a healthy coat and skin.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        var faq = document.getElementsByClassName("faqPage");
+        var i;
+        for (i = 0; i < faq.length; i++) {
+            faq[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var body = this.nextElementSibling;
+                if (body.style.display === "block") {
+                    body.style.display = "none";
+                } else {
+                    body.style.display = "block";
+                }
+            });
+        }
+    </script>

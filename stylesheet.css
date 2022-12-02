@@ -747,6 +747,49 @@ body {
   width: 100%;
 }
 
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.lineDivider{
+width: 60%;
+margin: auto;
+}
+
+.faqPage {
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.faqBody{
+margin: auto;
+ width: 50%; 
+ 
+}
+
+.faqBody {
+  padding: 0 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.faqPage:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
 /*booking*/
 .sharpPinkBg {
   background-image: url("Images/bookingbg.png");
