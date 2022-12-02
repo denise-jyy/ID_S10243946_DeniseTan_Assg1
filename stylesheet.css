@@ -749,7 +749,7 @@ body {
 
 /*booking*/
 .sharpPinkBg {
-  background-color: #ffb3b3;
+  background-image: url("Images/bookingbg.png");
   height: 100vh;
 }
 
