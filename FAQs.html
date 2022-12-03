@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQs</title>
+    <link rel="icon" type="image/png" href="./Images/pet-care.png">
 
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=PlayfairDisplay' rel='stylesheet'>
 </head>
 <body class="sharpPinkBg">
     <div class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
           <div class="nav-title">
-            <a href="index.html" class="active logo-box" id="LogoContainer">
-              <img src="Images/Logo.PNG" id="Logo" />
+            <a href="index.html" class="active logo-box LogoContainer">
+              <img src="Images/Logo.PNG" alt="Logo" id="Logo">
               <span id="LogoName">Fluff & Buff</span>
             </a>
           </div>
@@ -34,18 +35,19 @@
           <a href="booking.html">Book an Appointment</a>
           <a href="FAQs.html">FAQs</a>
           <a href="shop.html">Shop</a>
-          <a href="checkout.html" id="LogoContainer">
-            <img src="Images/Shopping cart.PNG" class="shoppingCart" />
+          <a href="checkout.html" class="LogoContainer">
+            <img src="Images/shoppingcart.PNG" alt="shoppingcart" class="shoppingCart">
           </a>
         </div>
-    </div>
+      </div>
+    
     <main>
         <div class="centerContainer">
-            <div class="whiteBg bookingCard" style= "width:600px; height:100%">
+            <div class="whiteBg card" style= "width:600px; height:100%;">
                 <h1 class="header">FAQs</h1>
             <div class="faqOne">
                 <!-- question1 -->
-                <h1 class="faqPage" style="font-family:Playfair Display; font-size: medium;">What days and times do you offer grooming?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">What days and times do you offer grooming?</h1>
                 <!-- answer1 -->
                 <div class="faqBody">
                     <p>
@@ -57,7 +59,7 @@
             <hr class="lineDivider">
             <div class="faqTwo">
                 <!-- question2 -->
-                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">How much does it cost?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">How much does it cost?</h1>
                 <!-- answer2 -->
                 <div class="faqBody">
                     <p>
@@ -69,7 +71,7 @@
             <hr class="lineDivider">
             <div class="faqThree">
                 <!-- question3 -->
-                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">How long does it usually take?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">How long does it usually take?</h1>
                 <!-- answer3 -->
                 <div class="faqBody">
                     <p>
@@ -83,7 +85,7 @@
             <hr class="lineDivider">
             <div class="faqFour">
                 <!-- question4 -->
-                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">What if I cannot pick up my pet as soon as the appointment is over?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">What if I cannot pick up my pet as soon as the appointment is over?</h1>
                 <!-- answer4 -->
                 <div class="faqBody">
                     <p>
@@ -94,7 +96,7 @@
             <hr class="lineDivider">
             <div class="faqFive">
                 <!-- question4 -->
-                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">What do I need to prepare before the grooming appointment?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">What do I need to prepare before the grooming appointment?</h1>
                 <!-- answer4 -->
                 <div class="faqBody">
                     <p>
@@ -106,7 +108,7 @@
             <hr class="lineDivider">
             <div class="faqSix">
                 <!-- question4 -->
-                <h1 class="faqPage"style="font-family:Playfair Display; font-size: medium;">Can I bring my own shampoo?</h1>
+                <h1 class="faqPage" style="font-family:Calibri, Verdana, sans-serif; font-size: medium;">Can I bring my own shampoo?</h1>
                 <!-- answer4 -->
                 <div class="faqBody">
                     <p>
@@ -114,8 +116,10 @@
                     </p>
                 </div>
             </div>
-        </section>
+            </div>
+        </div>
     </main>
+
     <script>
         var faq = document.getElementsByClassName("faqPage");
         var i;

@@ -1,3 +1,5 @@
+
+
 # Fluff & Buff
 
 ![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSyio-ib1qpjxqLVcbUCdsfNp4F1uLbAlNWv8-p-4Ke4zxjlmoDzrFCzK4o8kPRpAD2szjEHR0L3txZth9qtpDubkdLqMIs0AiuC5q4i2ChyvXCd4gAkY2HDEfqKL8EGnjm-_DQYdh9xQgUZMLERn8iwEPCpOI3jZS27vGJ3o2q_WDGazx6Esu549DjA/s320/IMG_0907.PNG)
@@ -29,23 +31,27 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 ## Features of this website
 
--On the landing page, I used a lottie files animation
+-On the landing page, I used a lottie files animation.
 
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
 
 -Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
 
+-When hovering over navigation bar buttons, there wil be an animation.
+
 -When reduced to a smaller screen size, there will be a hamburger menu storing the navbar buttons.
 
 -E-commerce page includes, pictures of products, product description and prices.
 
--Booking page which takes in customer's information like name, contact number and date/time. When user clicks the "book" button, an alert message will appear to indicate booking confirmation
+-Booking page which takes in customer's information like name, contact number and date/time. When user clicks the "book" button, an alert message will appear to indicate booking confirmation.
 
 -Reviews and tesimonials, includes pictures, ratings and comments.
 
 -Contact section, includes company number, email, address and an interactive map. In this section customers can also write any enquires they have for the company. When question is submitted, a alert message will appear. There is also a button which will lead customers to the FAQs page.
 
--Shop preview on homepage includes a multi-item slider carousel. When hovering over the items, I added an overlay button which says "Add to cart".
+-Shop preview on homepage includes a multi-item slider carousel with arrow buttons below. When hovering over the items, I added an overlay button which says "Add to cart". 
+
+-When hovering over buttons on the website it will have a darker outline.
 
 -This website is also responsive, so it will work on both desktop and mobile. 
 
@@ -70,6 +76,7 @@ To design background for some pages
 ### Content
 -This website is created for educational purposes and will not be made official. 
 Here are the websites where I got my information from as content fillers.
+
 -[FAQs content](https://www.pawsandclawsironmountain.com/faq)
 -[Review content](https://www.thefurrville.com/?gclid=EAIaIQobChMI4_akpsva-wIViJFmAh1h4AMSEAAYASAAEgJLO_D_BwE)
 
