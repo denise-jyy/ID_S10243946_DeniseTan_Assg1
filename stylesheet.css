@@ -370,7 +370,7 @@ template {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: white;
   padding: 0px 10px 0px 10px;
 }
 
@@ -388,7 +388,7 @@ template {
   display: inline-block;
   padding: 0px 10px 0px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: white;
 }
 
 .nav > .nav-links > a:hover {
@@ -455,7 +455,7 @@ a {
   transition: color .45s ease-in-out, box-shadow .45s ease-in-out;
 }
 a:hover {
-  color: #fff;
+  color: white;
   box-shadow: inset 200px 0 0 0 #ff9b9b;
 }
 
@@ -525,6 +525,7 @@ label {
 #topTitle {
   text-align: center;
 }
+
 #topPic {
   justify-content: center;
   display: flex;
@@ -538,8 +539,11 @@ label {
 }
 
 #landingTopContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 70px;
+  top: 50px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -591,7 +595,7 @@ label {
 .servicetext {
   text-align: center;
   width: 70%;
-  font-family: Calibri, Verdana, sans-serif;
+  font-family: "Playfair Display";
   font-weight: bold;
   font-size: 26px;
   color: #142755;
@@ -630,7 +634,7 @@ button:hover{
   }
   
 .header {
-  font-family: Calibri, Verdana, sans-serif;
+  font-family: "Playfair Display";
   text-align: center;
   padding: 30px;
   padding-top: 50px;
@@ -655,7 +659,7 @@ button:hover{
 
 .reviewtext {
   font-size: 16px;
-  font-family: Calibri, Verdana, sans-serif;
+  font-family: "Playfair Display";
 }
 
 body {
@@ -751,7 +755,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
-  font-family: Calibri, Verdana, sans-serif;
+  font-family: "Playfair Display";
 }
 
 .pinkBg {
@@ -776,7 +780,7 @@ body {
 }
 
 .contactLabel {
-  font-family:Calibri, Verdana, sans-serif;
+  font-family:"Playfair Display";
   font-weight: bold;
 }
 
@@ -825,7 +829,7 @@ margin: auto;
   background-color: white;
   display: none;
   overflow: hidden;
-  font-family: Calibri, Verdana, sans-serif;
+  font-family: "Playfair Display";
 }
 
 .faqPage:after {
@@ -870,6 +874,7 @@ margin: auto;
 .twoCol {
   flex: 1;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -892,11 +897,7 @@ margin: auto;
 }
 
 .shopNowbtn{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  position: relative;
   background-color: #d4a7fc;
   color: white;
   font-size: 16px;
@@ -906,3 +907,141 @@ margin: auto;
   border-radius: 5px;
   text-align: center;
 }
+
+.fourCol {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.fourRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .fourCol {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fourCol {
+    width: 50%;
+  }
+}
+
+.shopButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.shopButton {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.itemCard {
+  padding: 10px;
+}
+
+.itemPic {
+  width: 40%;
+  height: 240px
+}
+
+.itemText {
+  text-align: center;
+  margin: 0%;
+}
+
+/*checkout*/
+.cartCol {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.cartRow:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.checkoutRow:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cartRow {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.cartPic {
+  width: 25%; 
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .cartPic {
+    width: 80%;
+  }
+}
+
+.cartButton {
+  height: 25px!important;
+  width: 25px !important;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: center;
+  margin:3px !important;
+  padding: 4px;
+}
+
+.checkoutSmallCol {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.checkoutBigCol {
+  float: left;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.checkoutRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .checkoutBigCol {
+    width:0%;
+  }
+
+  .checkoutSmallCol{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+

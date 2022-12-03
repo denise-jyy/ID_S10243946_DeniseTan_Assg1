@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart</title>
+    <link rel="icon" type="image/png" href="./Images/pet-care.png">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=PlayfairDisplay' rel='stylesheet'>
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html" class="active logo-box LogoContainer">
+              <img src="Images/Logo.PNG" alt="Logo" id="Logo">
+              <span id="LogoName">Fluff & Buff</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+    
+        <div class="nav-links">
+    
+          <a href="booking.html">Book an Appointment</a>
+          <a href="FAQs.html">FAQs</a>
+          <a href="shop.html">Shop</a>
+          <a href="checkout.html" class="LogoContainer">
+            <img src="Images/shoppingcart.PNG" alt="shoppingcart" class="shoppingCart">
+          </a>
+        </div>
+      </div>
+
+      <h1 class="header">
+        Your Cart
+      </h1>
+
+      <div class="cartRow">
+        <div class="cartCol">
+            <div class="cartContainer">
+                <img src="./Images/shampoo3.jpg" alt="Shampoo Image" class="cartPic">
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            <div style="padding-top: 10px;">
+              YU Deep cleansing/light conditioning furry cats formula (250ml) <br>
+                <b>S$19.90</b>
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            <div>
+                <span>
+                    <button type="button" class="cartButton">-</button>
+                </span>
+                <span>2</span>
+                <button type="button" class="cartButton">+</button>
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            S$39.80
+        </div>
+      </div>
+      <hr class="lineDivider">
+
+      <div class="cartRow">
+        <div class="cartCol">
+            <div class="cartContainer">
+                <img src="./Images/toy3.jpg" alt="Shampoo Image" class="cartPic" style="width: 40%;">
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            <div>
+              KONG- Wild Knots Bear Squeaky Chewable Soft Toy <br>
+                <b>S$21.90</b>
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            <div>
+                <span>
+                    <button type="button" class="cartButton">-</button>
+                </span>
+                <span>1</span>
+                <button type="button" class="cartButton">+</button>
+            </div>
+        </div>
+        <div class="cartCol cartContainer">
+            S$21.90
+        </div>
+      </div>
+
+      <hr class="lineDivider">
+
+      <div class="checkoutRow">
+        <div class="checkoutBigCol">
+          &nbsp;
+        </div>
+        <div class="checkoutSmallCol">
+          <div>
+            <label for="discountCode">Discount Code (optional):</label><br>
+            <input type="text" id="discountCode"><br><br>
+            Subtotal:<br>
+            <h3>S$61.70</h3>
+            <div class="centerContainer">
+              <button type="button" id="checkoutBtn" style="width:100px; margin:0px;">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="header">You May Also Like</h1>
+
+      <div class="fourRow">
+        <div class="fourCol centerContainer">
+          <div class="whiteBg itemCard">
+            <div class="centerContainer">
+              <img class="itemPic" alt="Item Picture" src="./Images/shampoo7.jpg">
+            </div>
+            <p class="itemText">
+                YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
+                <b>S$27.90</b>
+            </p>
+            <div class="centerContainer">
+              <button type="button" style="width:150px">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="fourCol centerContainer">
+          <div class="whiteBg itemCard">
+            <div class="centerContainer">
+              <img class="itemPic" alt="Item Picture" src="./Images/shampoo1.jpg">
+            </div>
+            <p class="itemText">
+                YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
+                <b>S$27.90</b>
+            </p>
+            <div class="centerContainer">
+              <button type="button" style="width:150px">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="fourCol centerContainer">
+          <div class="whiteBg itemCard">
+            <div class="centerContainer">
+              <img class="itemPic" alt="Item Picture" src="./Images/toy7.jpg" style="width: 70%">
+            </div>
+            <p class="itemText">
+                KONG- Catnip detachable Infuser Plush Cat Toy with Catnip <br>
+                <b>S$27.90</b>
+            </p>
+            <div class="centerContainer">
+              <button type="button" style="width:150px">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="fourCol centerContainer">
+          <div class="whiteBg itemCard">
+            <div class="centerContainer">
+              <img class="itemPic" alt="Item Picture" src="./Images/toy1.jpg" style="width: 80%">
+            </div>
+            <p class="itemText">
+              KONG Classic Interactive Chewable Dog Toy (RED)<br>
+                <b>S$15.90</b>
+            </p>
+            <div class="centerContainer">
+              <button type="button" style="width:150px">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
