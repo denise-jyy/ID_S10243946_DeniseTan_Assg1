@@ -77,31 +77,41 @@ To design background for some pages
 
 ## Testing
 
-### Navigation Bar 
+__Navigation Bar__
 -Clicking on the logo, brings user back to homepage
 -Clicking on "Book an Appointment", brings user to booking page
 -Clicking on "Shop", brings user to shop page
 -Clicking on "FAQs", brings user to FAQs page
 -Clicking on "Cart", brings user to Checkout page
 
-### Buttons
+__Buttons__
 -In the services section, clicking on "Book an Appointment", brings user to booking page
 -"Add to Cart" does not work
 -In shop section of homepage, "Shop Now" brings user to shop page
--
+-In shop section, next and previous buttons move the slider carousel
+-In contact us section, FAQs button brings user to FAQs page
+-In contact us section, "Submit Question" button will call the function for alert message saying "Question submitted"
+-In booking page, when user clicks on "Select Time" and "Select Service type" there will be a dropdown list 
+-When "Book" button will call the function for alert message saying "Booking confirmed" 
+-In FAQs page, when user clicks on questions there will be a dropdown text of the answer
+-In Shop page, clicking shop now on Grooming and Toys section will bring users to grooming and toys section of the page respectively
+
+__Responsiveness__
+Website works on mobile size, columns are reduced to 1 instead of 2, 3 ,4 on the desktop size. When in mobile size there will be a hamburger menu, when buttons clicked it will bring user to the respective pages.
 
 ## Credits
+-[W3Schools](https://www.w3schools.com/)
+-[Google Fonts](https://fonts.google.com/)
+-[Adobe XD](https://www.adobe.com/products/xd/learn/get-started.html)
+-[Procreate](https://procreate.art/)
+-[LottieFiles](https://lottiefiles.com/)
+-[Canva](https://www.canva.com/)
+-[PicWish](https://picwish.com/)
 
-
-
-### Content
+## Content
 -This website is created for educational purposes and will not be made official. 
 Here are the websites where I got my information from as content fillers.
 
 -[FAQs content](https://www.pawsandclawsironmountain.com/faq)
 -[Review content](https://www.thefurrville.com/?gclid=EAIaIQobChMI4_akpsva-wIViJFmAh1h4AMSEAAYASAAEgJLO_D_BwE)
-
-### Media
-
-### Acknowledgements
 
