@@ -722,20 +722,6 @@ body {
   opacity: 1;
 }
 
-/* .btn {
-  background: rgb(245 24 24);
-  border: none;
-  outline: none;
-  color: #fff;
-  font-size: 20px;
-  margin-top: 30px;
-  padding: 6px 12px;
-  cursor: pointer;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-} */
-
 .btn:nth-child(2) {
   margin-left: -74px;
 }
@@ -794,12 +780,6 @@ body {
 /*faqs*/
 #faqbackground {
   width: 100%;
-}
-
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
 }
 
 .lineDivider{
@@ -878,7 +858,6 @@ margin: auto;
 }
 
 @media (max-width: 768px) {
-  /*breakpoint*/
   .twoCols {
     flex-direction: column;
   }
