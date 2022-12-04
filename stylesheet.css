@@ -634,7 +634,7 @@ button:hover{
   }
   
 .header {
-  font-family: "Playfair Display";
+  font-family:"Playfair Display";
   text-align: center;
   padding: 30px;
   padding-top: 50px;
@@ -781,7 +781,7 @@ body {
 
 .contactLabel {
   font-family:"Playfair Display";
-  font-weight: bold;
+  font-weight: light;
 }
 
 .inputContainer {
@@ -1045,3 +1045,19 @@ margin: auto;
   }
 }
 
+  input[type=text]:focus {
+    border: 3px solid #ff9b9b;
+    background-color: #FFDAE9;
+    outline: none;
+  }
+
+  .zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }

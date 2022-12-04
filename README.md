@@ -35,15 +35,17 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
 
--Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS".
+-Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS", "Checkout".
 
 -When hovering over navigation bar buttons, there wil be an animation.
 
 -When reduced to a smaller screen size, there will be a hamburger menu storing the navbar buttons.
 
--E-commerce page includes, pictures of products, product description and prices.
+-E-commerce page includes, pictures of products and prices.
 
 -Booking page which takes in customer's information like name, contact number and date/time. When user clicks the "book" button, an alert message will appear to indicate booking confirmation.
+
+-Checkout page shows image of item, name, price and total. It also give users the option to enter a discount code. 
 
 -Reviews and tesimonials, includes pictures, ratings and comments.
 
@@ -52,6 +54,10 @@ Include pictures which will make the website less boring, texts that is easy to 
 -Shop preview on homepage includes a multi-item slider carousel with arrow buttons below. When hovering over the items, I added an overlay button which says "Add to cart". 
 
 -When hovering over buttons on the website it will have a darker outline.
+
+-When hovering over shop images, it will zoom in.
+
+-When users click on input box, it we be outlined to indicate what the user clicked on.
 
 -This website is also responsive, so it will work on both desktop and mobile. 
 
@@ -68,10 +74,25 @@ For animation on landing page
 
 [Canva](https://www.canva.com/)
 To design background for some pages
+
 ## Testing
 
+### Navigation Bar 
+-Clicking on the logo, brings user back to homepage
+-Clicking on "Book an Appointment", brings user to booking page
+-Clicking on "Shop", brings user to shop page
+-Clicking on "FAQs", brings user to FAQs page
+-Clicking on "Cart", brings user to Checkout page
+
+### Buttons
+-In the services section, clicking on "Book an Appointment", brings user to booking page
+-"Add to Cart" does not work
+-In shop section of homepage, "Shop Now" brings user to shop page
+-
 
 ## Credits
+
+
 
 ### Content
 -This website is created for educational purposes and will not be made official. 

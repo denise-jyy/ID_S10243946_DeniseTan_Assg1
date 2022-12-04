@@ -14,8 +14,10 @@
   <!-- External CSS file, “link” -> TAB -->
 
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="script" href="script.js">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
   <link href='https://fonts.googleapis.com/css?family=PlayfairDisplay' rel='stylesheet'>
+
 
   <title>Fluff & Buff</title>
   <link rel="icon" type="image/png" href="./Images/pet-care.png">
@@ -193,7 +195,7 @@
     <div class="sliderWidth">
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-          <div>
+          <div class="zoom">
             <img class="shopPic" alt="Item Picture" src="./Images/shampoo1.jpg">
             <p class="shopText">
               YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
@@ -207,7 +209,7 @@
       </div>
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-            <div>
+            <div class="zoom">
                 <img class="shopPic" alt="Item Picture" src="./Images/shampoo7.jpg">
                 <p class="shopText">
                     YU Shampoo for Cats & Dogs - Skin Defense Formula (400ml) <br>
@@ -221,7 +223,7 @@
       </div>
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-            <div>
+            <div class="zoom">
                 <img class="shopPic" alt="Item Picture" src="./Images/shampoo2.jpg" style= "width:160px">
                 <p class="shopText">
                     Aesop Animal wash <br>
@@ -236,10 +238,11 @@
       </div>
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-        <div>
+        <div class="zoom">
             <img class="shopPic" alt="Item Picture" src="./Images/shampoo3.jpg">
             <p class="shopText">
-                YU Deep cleansing/light conditioning furry cats formula (250ml) <br>
+                YU Deep cleansing/light conditioning furry cats <br>
+                (250ml) <br>
                 S$19.90
             </p>
             <div class="middle">
@@ -250,9 +253,9 @@
       </div>
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-            <div>
-                <img class="shopPic" alt="Item Picture" src="./Images/shampoo4.jpg" style= "width:180px">
-                <p class="shopText">
+            <div class="zoom">
+                <img class="shopPic" alt="Item Picture" src="./Images/shampoo4.jpg" style= "width:200px; padding-top: 30px;">
+                <p class="shopText" style="padding: 30px;">
                     Easy-Clean & Softness For Lovely Cats formula <br>
                     (150ml) <br>
                     S$15.90
@@ -265,11 +268,11 @@
       </div>
       <div class="threeCols">
         <div class="homeShop overlayContainer">
-            <div>
-                <img class="shopPic" alt="Item Picture" src="./Images/shampoo5.jpg" style= "width:170px">
+            <div class="zoom">
+                <img class="shopPic" alt="Item Picture" src="./Images/shampoo5.jpg" style= "width:40%">
                 <p class="shopText">
-                    Epidermis Prime Essentials Deep Cleansing Pet Shampoo (250ml) <br>
-                    S$28.00
+                    Melanie Newman Relax Dog Shampoo (500ml) <br>
+                    S$39.90
                 </p>
                 <div class="middle">
                       <button type="button" style="width:150px">Add to Cart</button>
@@ -313,13 +316,13 @@
       </div>
       <div class="threeCol pinkBg centerContainer">
         <div class="inputContainer">
-          <h3 style="font-family: Playfair Display"> Ask Us Anything</h3>
+          <p style="font-family: Playfair Display; font-size: large; font-weight: 500;"> Ask Us Anything</p>
           <div>
-          <label for="contactEmail" class="contactLabel">Enter your Email:</label><br>
-          <input type="text" class="contactInput" name="contactEmail" id="contactEmail"><br>
-          <label for="contactNo" class="contactLabel">Enter Your Contact Number:</label><br>
-          <input type="text" class="contactInput" name="contactNo" id="contactNum"><br>
-          <label for="question" class="contactLabel">What is your question?</label><br>
+          <label for="contactEmail" class="contactLabel">Enter your Email:</label>
+          <input type="text" class="contactInput" name="contactEmail" id="contactEmail">
+          <label for="contactNo" class="contactLabel">Enter Your Contact Number:</label>
+          <input type="text" class="contactInput" name="contactNo" id="contactNum">
+          <label for="question" class="contactLabel">What is your question?</label>
         </div>
           <textarea name="question" rows="5" id="question" class="contactInput"></textarea>
           <div class="buttonContainer">
@@ -336,71 +339,7 @@
   </div>
 
 
-  <script>
-    var count = 0;
-    var inc = 0;
-    margin = 0;
-    var slider = document.getElementsByClassName("sliderWidth")[0];
-    var itemDisplay = 0;
-    if (screen.width > 990) {
-      itemDisplay = document.getElementsByClassName("sliderContainer")[0].getAttribute("itemDisplayd");
-      margin = itemDisplay * 5;
-    }
-    if (screen.width > 280 && screen.width < 700) {
-      itemDisplay = document.getElementsByClassName("sliderContainer")[0].getAttribute("itemDisplaym");
-      margin = itemDisplay * 20;
-    }
-
-
-    var items = document.getElementsByClassName("homeShop");
-    var itemleft = items.length % itemDisplay;
-    var itemslide = Math.floor(items.length / itemDisplay) - 1;
-    for (let i = 0; i < items.length; i++) {
-      items[i].style.width = (screen.width / itemDisplay) - margin + "px";
-    }
-
-    function next() {
-      if (inc !== itemslide + itemleft) {
-        if (inc == itemslide) {
-          inc = inc + itemleft;
-          count = count - (screen.width / itemDisplay) * itemleft;
-        }
-        else {
-          inc++;
-          count = count - screen.width;
-        }
-      }
-      slider.style.left = count + "px";
-    }
-
-    function prev() {
-      if (inc !== 0) {
-        if (inc == itemleft) {
-          inc = inc - itemleft;
-          count = count + (screen.width / itemDisplay) * itemleft;
-        }
-        else {
-          inc--;
-          count = count + screen.width;
-        }
-      }
-      console.log(inc)
-      slider.style.left = count + "px";
-    }
-
-    function showQuestionmessage() {
-        alert("Question submitted!");
-    }
-
-    function shopMap() {
-        var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-
-  </script>
+  <script src="script.js"></script>
 
 </body>
 
