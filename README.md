@@ -12,11 +12,11 @@ The objective of this website is to provide customers with a platform to easily 
 
 My website consists of 5 pages, Homepage (single scroll page), Booking page, Shop page, Checkout page and FAQs page. The homepage connects all the other pages. I also made two sets of wireframe, one for desktop view and another for mobile view. 
 
-__Responsive Website__
+__Responsive Website__<br>
 This website will be able to adapt to whichever device our customer is using. This will improve their user experience.<br>
-__Easy navigation__
+__Easy navigation__<br>
 Include a navigation menu which is clearly labelled so customers will never have a problem finding their way through the website.<br>
-__Style and page layout__
+__Style and page layout__<br>
 Include pictures which will make the website less boring, texts that is easy to read and concise so we will not lose our customer's attention. Use of colour contrasts so all information displayed is clear. Layout should not be confusing.<br>
 
 -As a customer looking for pet products, I want to be able to quickly locate the type of products I'm interested in. This can be achieved by having organised sections for each type of product.
@@ -33,6 +33,8 @@ Include pictures which will make the website less boring, texts that is easy to 
 
 -On the landing page, I used a lottie files animation.
 
+-I added a browser tab icon using favicon.
+
 -The homepage includes an about text and picture, small preview sections of the shop page and booking page.
 
 -Navigation menu bar with buttons leading to different pages of the website like "Home", "Book an Appointment", "Shop", "FAQS", "Checkout".
@@ -42,6 +44,8 @@ Include pictures which will make the website less boring, texts that is easy to 
 -When reduced to a smaller screen size, there will be a hamburger menu storing the navbar buttons.
 
 -E-commerce page includes, pictures of products and prices.
+
+-When hovering over shop items there will be a zoom in effect.
 
 -Booking page which takes in customer's information like name, contact number and date/time. When user clicks the "book" button, an alert message will appear to indicate booking confirmation.
 
@@ -74,6 +78,9 @@ For animation on landing page
 
 [Canva](https://www.canva.com/)
 To design background for some pages
+
+[PicWish](https://picwish.com/)
+To remove background for jpg images
 
 ## Testing
 
