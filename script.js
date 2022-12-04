@@ -1,4 +1,4 @@
-
+/*homepage item slider*/
     var count = 0;
     var inc = 0;
     margin = 0;
@@ -50,10 +50,11 @@
       slider.style.left = count + "px";
     }
 
+/*Contact us question submission*/
     function showQuestionmessage() {
         alert("Question submitted!");
     }
-
+/*Contact us API map*/
     function shopMap() {
         var mapProp= {
         center:new google.maps.LatLng(51.508742,-0.120850),
@@ -61,12 +62,12 @@
         };
         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
-
+/*Booking page booking confirmation*/
     function showSuccessMessage() {
         alert("Booking is confirmed!");
       }
 
-
+/*FAQs page dropdown text*/
     var faq = document.getElementsByClassName("faqPage");
     var i;
     for (i = 0; i < faq.length; i++) {
