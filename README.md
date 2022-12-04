@@ -13,11 +13,11 @@ The objective of this website is to provide customers with a platform to easily 
 My website consists of 5 pages, Homepage (single scroll page), Booking page, Shop page, Checkout page and FAQs page. The homepage connects all the other pages. I also made two sets of wireframe, one for desktop view and another for mobile view. 
 
 __Responsive Website__
-This website will be able to adapt to whichever device our customer is using. This will improve their user experience.
+This website will be able to adapt to whichever device our customer is using. This will improve their user experience.<br>
 __Easy navigation__
-Include a navigation menu which is clearly labelled so customers will never have a problem finding their way through the website.
+Include a navigation menu which is clearly labelled so customers will never have a problem finding their way through the website.<br>
 __Style and page layout__
-Include pictures which will make the website less boring, texts that is easy to read and concise so we will not lose our customer's attention. Use of colour contrasts so all information displayed is clear. Layout should not be confusing.
+Include pictures which will make the website less boring, texts that is easy to read and concise so we will not lose our customer's attention. Use of colour contrasts so all information displayed is clear. Layout should not be confusing.<br>
 
 -As a customer looking for pet products, I want to be able to quickly locate the type of products I'm interested in. This can be achieved by having organised sections for each type of product.
 
