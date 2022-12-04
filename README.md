@@ -77,14 +77,14 @@ To design background for some pages
 
 ## Testing
 
-__Navigation Bar__
+__Navigation Bar__<br>
 -Clicking on the logo, brings user back to homepage
 -Clicking on "Book an Appointment", brings user to booking page
 -Clicking on "Shop", brings user to shop page
 -Clicking on "FAQs", brings user to FAQs page
 -Clicking on "Cart", brings user to Checkout page
 
-__Buttons__
+__Buttons__<br>
 -In the services section, clicking on "Book an Appointment", brings user to booking page
 -"Add to Cart" does not work
 -In shop section of homepage, "Shop Now" brings user to shop page
@@ -96,7 +96,7 @@ __Buttons__
 -In FAQs page, when user clicks on questions there will be a dropdown text of the answer
 -In Shop page, clicking shop now on Grooming and Toys section will bring users to grooming and toys section of the page respectively
 
-__Responsiveness__
+__Responsiveness__<br>
 Website works on mobile size, columns are reduced to 1 instead of 2, 3 ,4 on the desktop size. When in mobile size there will be a hamburger menu, when buttons clicked it will bring user to the respective pages.
 
 ## Credits
